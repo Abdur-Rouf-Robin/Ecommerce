@@ -1,0 +1,38 @@
+# Node modules
+/node_modules
+/server/node_modules
+/client/node_modules
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Dependency directories
+client/build
+server/build
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# npm packages
+package-lock.json
+yarn.lock
+
+# Coverage directory used by testing tools
+coverage/
+
+# Server-side and client-side dist/build files
+/dist
+/public/dist
+/public/build

@@ -1,0 +1,38 @@
+1. [] Pick a convenient name for the project folder
+2. [] Enter into the folder and make a directory named <server>
+3. [] run the code npm init --y
+4. [] install the following packages
+    express mongoose dotenv helmet cors express-rate-limit xss-clean bcrypt jsonwebtoken body-parser cookie-parser axios nodemon nodemailer hpp express-mongo-sanitize express-fileupload tslint swagger-ui-express swagger-jsdoc compression express-validator multer cloudinary i
+5. [] set "type": "module" in package.json file
+6. [] add .env, .gitignore, server.js, swagger.json, tslint.json
+7. [] modify dotenv file with some variable
+    PORT, MONGO_URI, NODE_ENV, JWT_SECRET, JWT_EXPIRES_IN, GMAIL_USER, GMAIL_PASS, REACT_APP_URL, SENDGRID_API_KEY
+8. [] modify .gitignore file with some expression
+    node_modules, .env, dist/
+9. [] modify package.json with
+    "main": "server.s", "type": "module" "script" -> "start" : "server.js", "dev" : "nodemon server.js"
+10. [] Create database correctly with local or mongodb atlas
+    project name, cluster name , database name , add current ip address, username and password, network access
+11. [] create server.js and code it
+12. [] create project with vite named client
+13. [] copy the link and paste it to server.js -> cors origin
+14. [] methods, allowedHeaders, credentials
+15. []
+16. [] go to client folder and install some packages
+    @reduxjs/toolkit, axios, class-variance-authority, clsx, lucide-react, react, react-dom, react-redux, react-router-dom, tailwind-merge, tailwindcss-animate
+17. [] initialize github
+    git init
+    git add .
+    git commit -m "initial commit"
+    git remote add origin https://github.com/Abdur-Rouf-Robin/Ecommerce.git
+    git push -u origin main/master
+18. [] use shadcn configuration
+19. [] install tailwind
+20. [] use jsconfig.json   --> compiler portion
+21. [] modify vite.config.js
+22. [] install shadcn-ui
+23. [] modify router and redux
+    in main.jsx replace strictMode to BrowserRouter including App
+24. [] create Redux store
+
+
