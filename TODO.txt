@@ -10,22 +10,26 @@
 8. [] modify .gitignore file with some expression
     node_modules, .env, dist/
 9. [] modify package.json with
-    "main": "server.s", "type": "module" "script" -> "start" : "server.js", "dev" : "nodemon server.js"
+    "main": "server.js", "type": "module" "script" -> "start" : "server.js", "dev" : "nodemon server.js"
 10. [] Create database correctly with local or mongodb atlas
     project name, cluster name , database name , add current ip address, username and password, network access
 11. [] create server.js and code it
 12. [] create project with vite named client
+    npm create vite@latest client --template react
+    cd client
+    npm install
+    npm run dev
 13. [] copy the link and paste it to server.js -> cors origin
 14. [] methods, allowedHeaders, credentials
 15. []
 16. [] go to client folder and install some packages
-    @reduxjs/toolkit, axios, class-variance-authority, clsx, lucide-react, react, react-dom, react-redux, react-router-dom, tailwind-merge, tailwindcss-animate
+    @reduxjs/toolkit, axios, clsx, react, react-dom, react-redux, react-router-dom, tailwind-merge, tailwindcss-animate
 17. [] initialize github
     git init
     git add .
     git commit -m "initial commit"
     git remote add origin https://github.com/Abdur-Rouf-Robin/Ecommerce.git
-    git push -u origin main/master
+    git push -u origin main
 18. [] use shadcn configuration
 19. [] install tailwind
 20. [] use jsconfig.json   --> compiler portion
